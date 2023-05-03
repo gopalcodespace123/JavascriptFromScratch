@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Of A Number</title>
+    <script type="text/javascript">
+        var number = prompt("Please Enter A Number");
+        var fact = 1;
+        if (number == 0) {
+            console.log(`the factoraial of ${number} is 1`);
+        } else if (number < 0) {
+            console.log(`the factoraial of Negative Number Is Not Possible. `);
+        } else {
+            for (var i = 1; i <= number; i++) {
+                fact = fact * i
+
+            }
+
+            console.log(`the factoraial of ${number} is ${fact}`)
+
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
